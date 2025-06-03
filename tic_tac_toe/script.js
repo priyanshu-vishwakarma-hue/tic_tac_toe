@@ -45,9 +45,9 @@ function checkWinner() {
         if(a!=="" && a===b && a===c){
             allowed_input=0;
             turn[0].innerHTML=a+ " is the winner";
-            box[winingCombinations[i][0]].style.backgroundColor = "red";
-            box[winingCombinations[i][1]].style.backgroundColor = "red";
-            box[winingCombinations[i][2]].style.backgroundColor = "red";
+            box[winingCombinations[i][0]].style.backgroundColor = "rgb(173, 24, 24)";
+            box[winingCombinations[i][1]].style.backgroundColor = "rgb(173, 24, 24)";
+            box[winingCombinations[i][2]].style.backgroundColor = "rgb(173, 24, 24)";
             return;
         }
     }
